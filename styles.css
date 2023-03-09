@@ -1,24 +1,44 @@
 *{
     font-family: Roboto;
+    font-size: 20px;
 }
 
 
-li{
+li {
     display: inline;
     margin-right: 30px;
+    
 }
 
-nav{
+main{
     width: 100%;
 }
 
 .main{
     padding: 10px 80px;
-    background-color: #FFFDD0;
+    background-color: white;
+    color: black;
 }
 
 h2{
     font-size: 30px;
-    color: #ff0000;
-    
+    color: white;
+    margin: 0;
+    padding: 5px;
+    background-color: red;
+    max-width: fit-content;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a { 
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    color: red;
 }
